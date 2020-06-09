@@ -1,3 +1,4 @@
 *.il
 *.exe
+results/*
 errors.txt
