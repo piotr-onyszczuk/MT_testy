@@ -1,0 +1,14 @@
+program{
+int dupa;
+double dup;
+double dup1;
+double dup2;
+double 3dup3;
+double dup4;
+;;;;
+(dup=(dup2=(  int  ) dup3));
+
+write "marek powiedzial \"dupa dupa\" \\chyba nie";
+write 1.0;
+write true;
+}

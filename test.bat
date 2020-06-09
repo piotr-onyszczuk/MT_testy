@@ -23,7 +23,7 @@ for /f "tokens=*" %%a in (tests.txt) do (
 	)
 	
 	if !problem! == 1 (
-		echo error > results\%%a
+		echo error> results\%%a
 	)
 )
 

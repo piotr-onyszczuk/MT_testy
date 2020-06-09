@@ -1,8 +1,8 @@
 errors detected 
-Comparing files RESULTS\test2.txt and EXPECTED_RESULTS\TEST2.TXT
-***** RESULTS\test2.txt
+Comparing files RESULTS\test_dec2 and EXPECTED_RESULTS\TEST_DEC2
+***** RESULTS\test_dec2
+error
+***** EXPECTED_RESULTS\TEST_DEC2
 error 
-***** EXPECTED_RESULTS\TEST2.TXT
-erro
 *****
 
