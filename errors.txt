@@ -1,8 +1,0 @@
-errors detected 
-Comparing files RESULTS\test_dec2 and EXPECTED_RESULTS\TEST_DEC2
-***** RESULTS\test_dec2
-error
-***** EXPECTED_RESULTS\TEST_DEC2
-error 
-*****
-
