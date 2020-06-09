@@ -1,0 +1,8 @@
+errors detected 
+Comparing files RESULTS\test2.txt and EXPECTED_RESULTS\TEST2.TXT
+***** RESULTS\test2.txt
+error 
+***** EXPECTED_RESULTS\TEST2.TXT
+erro
+*****
+
