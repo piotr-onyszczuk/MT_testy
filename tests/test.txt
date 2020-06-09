@@ -1,0 +1,11 @@
+program
+{
+    bool a;
+
+    if(true == true)
+    {}
+
+    if(true == true)
+    {}
+	write "dupeczka";
+  }
