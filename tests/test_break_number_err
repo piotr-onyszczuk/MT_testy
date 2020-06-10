@@ -1,0 +1,19 @@
+program{
+	int number;
+	int current;
+	number = 3;
+	while(true){
+	while(true){
+	while (true){
+	write "dobry\n";
+
+	current = current+1;
+	if (!(current < number))
+		break 4;
+	}
+	}
+	}
+	
+	write "look ";
+	write current;
+}

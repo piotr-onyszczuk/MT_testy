@@ -1,0 +1,18 @@
+program{
+	int number;
+	int current ;
+	int nop ;
+	number = 3;
+	nop = 5;
+	while (current < nop){
+	write "dobry\n";
+	current = current+1;
+	if (current <= number)
+		continue;
+	
+	write "bez continue\n";
+	}
+	
+	write "look ";
+	write current;
+}

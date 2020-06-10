@@ -1,0 +1,11 @@
+program {
+	int iup, iup2;
+	double dup, dup2;
+	bool bup, bup2;
+	
+	iup = iup2 + 3;
+	dup = dup2 + 3;
+	bup = bup2 && true;
+	
+	write "udalo sie";
+}

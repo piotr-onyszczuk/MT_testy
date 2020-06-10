@@ -1,0 +1,15 @@
+program{
+	int number;
+	int current;
+	number = 3;
+	while (true){
+	write "dobry\n";
+
+	current = current+1;
+	if (!(current < number))
+		break ;
+	}
+	
+	write "look ";
+	write current;
+}
