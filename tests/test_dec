@@ -5,7 +5,7 @@ double dup1;
 double dup2;
 double dup3;
 double dup4;
-;;;;
+
 (dup=(dup2=(  int  ) dup3));
 
 write "marek powiedzial \"dupa dupa\" \\chyba tak";
