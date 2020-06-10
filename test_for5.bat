@@ -32,6 +32,6 @@ for /f "tokens=*" %%a in (tests_for5.txt) do (
 
 	fc results\%%a expected_results\%%a
 	if not !errorlevel! == 0 (
-		fc results\%%a expected_results\%%a >> errors.txt
+		fc results\%%a expected_results\%%a >> errors_for5.txt
 	)
 )
