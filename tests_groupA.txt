@@ -1,2 +1,6 @@
 test_multiple_declarations_one_line_err
 test_multiple_declarations_one_line
+test_break
+test_break_number
+test_break_number_err
+test_continue
