@@ -1,0 +1,14 @@
+program{
+double k;
+int q,w,e;
+
+
+k = 2;
+{
+int k;
+k = 1;
+write k;
+}
+write "\n";
+write k;
+}

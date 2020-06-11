@@ -1,0 +1,2 @@
+simple_assignment_hiding_test
+add_hiding_test

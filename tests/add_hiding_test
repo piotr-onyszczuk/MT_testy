@@ -1,0 +1,11 @@
+program{
+int a,b,c;
+
+a = b = 1;
+{
+int a;
+a = 3;
+c = a + b;
+}
+write c;
+}
