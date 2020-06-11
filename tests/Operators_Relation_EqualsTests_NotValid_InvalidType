@@ -1,0 +1,10 @@
+program { 
+    int a;
+    bool b;
+
+    b == a;
+    a == true
+    true == 2.0
+    false == 1;
+    1.0 == 1.0 == 2;
+}

@@ -1,0 +1,14 @@
+program 
+{
+    bool bool;
+    bool double;
+    bool int;
+
+    int int;
+    int double;
+    int bool;
+
+    double int;
+    double double;
+    double bool;
+}

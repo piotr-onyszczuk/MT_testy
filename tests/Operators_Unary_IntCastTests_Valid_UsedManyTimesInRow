@@ -1,0 +1,12 @@
+program 
+{ 
+	int k;
+	k =
+	  (int) 2.0   + (int) 
+	  (int) 3     + (int) 
+	  (int) true  + (int) 
+	    false;
+	; 
+
+	k = (int) (double) (int) 2.0;
+}

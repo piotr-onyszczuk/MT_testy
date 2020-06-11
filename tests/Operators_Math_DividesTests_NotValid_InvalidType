@@ -1,0 +1,5 @@
+program 
+{
+	1 / true;
+	true / 1;
+} 

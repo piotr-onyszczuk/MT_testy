@@ -1,0 +1,10 @@
+program 
+{ 
+	bool a;
+	bool b;
+	a 
+		=
+			b
+				= 
+					false;
+}

@@ -1,0 +1,14 @@
+program 
+{
+    bool if;
+    bool else;
+    bool while;
+
+    int read;
+    int write;
+    int program;
+
+    double return;
+    double true;
+    double false;
+}

@@ -1,0 +1,19 @@
+program { 
+	
+	int aA;
+	int aa;
+	bool Aa;
+	double AA; 
+	
+	int bbBb;
+	int bbbB;
+	 
+	double ee;
+	int eE;
+
+	double gA;
+	bool GA;
+
+	int Kaladin;
+	bool kaladin;
+}

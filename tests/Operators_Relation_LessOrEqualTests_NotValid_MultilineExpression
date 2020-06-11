@@ -1,0 +1,17 @@
+program { 
+    int a;
+    double b;
+
+    b <
+    = a;
+    a <
+    = 1.0;
+
+    2.0 <
+    = 2.0
+    != false != true;
+    1.0 <
+    =
+    1.0 
+    == true;
+}

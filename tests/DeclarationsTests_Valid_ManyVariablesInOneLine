@@ -1,0 +1,4 @@
+program { 
+	int a;double b;bool c; bool d;int e;double g;
+	double aa; int ab;int cc;double dd;bool eee;double gag;
+}

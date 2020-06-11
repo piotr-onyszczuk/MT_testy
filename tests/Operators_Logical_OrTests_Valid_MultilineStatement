@@ -1,0 +1,15 @@
+program 
+{ 
+	bool b;
+	bool a;
+	a = a
+	||  
+	b
+	||
+	(	true ||
+		false
+		||
+		true
+	)
+	; 
+}

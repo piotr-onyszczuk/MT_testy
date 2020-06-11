@@ -1,0 +1,10 @@
+program 
+{
+	bool b;
+	bool b1;
+	true && &&  false;
+	 && true;
+	b =  true && b1 && && false;
+
+	&& false;
+} 

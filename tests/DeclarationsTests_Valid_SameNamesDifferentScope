@@ -1,0 +1,22 @@
+//BBB
+program { 
+	
+	int aa;
+	int ee;
+	int bbbb;
+	{
+		int aa;
+		int bb;
+	}
+	{
+		bool bb;
+		double aa; 
+	}
+	{ int bbbb; }
+	 
+
+
+	{ double ee; { int bbbb;} }
+	{ bool ee; }
+	{ int aa; { int aa; { int aa; bool bb; double ee; }}}
+}

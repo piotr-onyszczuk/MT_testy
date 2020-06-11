@@ -1,0 +1,5 @@
+program {
+    bool   ;
+    bool ;
+    bool   ;
+}

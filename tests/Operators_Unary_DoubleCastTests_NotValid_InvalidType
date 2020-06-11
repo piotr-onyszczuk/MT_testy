@@ -1,0 +1,7 @@
+program 
+{
+	int a;
+	a = (double)1;
+} 
+
+

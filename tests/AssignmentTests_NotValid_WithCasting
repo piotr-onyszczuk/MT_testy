@@ -1,0 +1,15 @@
+program { 
+	
+
+	int num;
+	double real;
+	bool b;
+
+
+	num = (int) b + 1 
+		- (double) (real / 2.0) 
+		* (int)(double)2;
+
+	real = (double)(double)(int)b;
+	num = (double) (2 / 2.0);
+}

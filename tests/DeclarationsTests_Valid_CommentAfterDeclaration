@@ -1,0 +1,5 @@
+program { 
+    int abbba; // My name is John. John Wick.
+    int baba;  // I'm also called 'Baba Yaga'.
+    bool b;    // I like my dog.
+}

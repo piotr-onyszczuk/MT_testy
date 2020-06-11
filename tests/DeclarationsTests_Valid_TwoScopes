@@ -1,0 +1,7 @@
+//BBB
+program { 
+	double a;
+	{
+		int b;
+	}
+}

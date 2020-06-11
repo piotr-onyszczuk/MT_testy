@@ -1,0 +1,20 @@
+program { 
+	int b;
+	int c;
+	bool myBool;
+	bool mySecondBool;
+	double x1;
+	double x2;
+
+	b = b = b = 1.0;
+	c = b = c = false;
+	x1 = x2 = false;
+	x2 = x1 = b = 1.0;
+	x2 = b = c = b = c = false;
+	x2 = x1 = myBool = 11.0;
+
+	myBool = mySecondBool;
+	myBool = mySecondBool = 1;
+	mySecondBool = myBool = 0;
+	myBool = c = false;
+}

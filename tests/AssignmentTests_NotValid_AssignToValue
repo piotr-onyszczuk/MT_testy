@@ -1,0 +1,21 @@
+program { 
+	int num;
+	double d;
+	double d2;
+	bool b;
+	int a;
+
+	num = 5;
+	10 = num;
+	num = 10 = num; 
+
+
+	1.0 = d;
+	d = 2.0 = d2;
+
+
+	false = b;
+	true = b;
+	b = false = b;
+
+}

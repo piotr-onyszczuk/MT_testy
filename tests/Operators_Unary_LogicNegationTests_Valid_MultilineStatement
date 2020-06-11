@@ -1,0 +1,11 @@
+program 
+{ 
+	bool b;
+	bool a;
+
+	b = false;
+	a = 
+	  !
+					b // I was scared of exclamation mark so I went right
+	; 
+}

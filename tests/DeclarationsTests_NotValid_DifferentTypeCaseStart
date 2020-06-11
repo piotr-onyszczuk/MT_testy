@@ -1,0 +1,6 @@
+program 
+{ 
+	double a;	
+	Int Kaladin;
+	bool kal;
+}

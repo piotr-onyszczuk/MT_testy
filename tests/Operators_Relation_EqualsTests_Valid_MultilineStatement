@@ -1,0 +1,9 @@
+program { 
+	bool b;
+	1 == 
+	1 == true;
+
+	b = 1 == 1
+	== true
+	== false;
+}

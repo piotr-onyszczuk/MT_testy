@@ -1,0 +1,15 @@
+//BBB
+program {
+	int a;
+	int b;
+	{
+		int a;
+		{
+			int a;
+			int b;
+			{ int c; int a; int c; }
+		}
+	}
+}
+
+

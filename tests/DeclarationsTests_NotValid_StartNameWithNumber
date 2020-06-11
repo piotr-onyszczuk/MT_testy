@@ -1,0 +1,5 @@
+program {
+    bool 5aaa;
+    int 12abb;
+    double 343434aa;
+}

@@ -1,0 +1,7 @@
+program 
+{
+	bool b;
+	b = (int)true;
+} 
+
+

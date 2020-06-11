@@ -1,0 +1,15 @@
+program 
+{
+	double d;
+	int k;
+	bool b;
+
+	k = 1 + 1 * 2.0 + 1;
+	k = 222 / d;
+	k = (1 - 1) * (2.0/2.9); 
+
+
+	b = true;
+	d = 1 + 2 + 3 + 4.0 + b + 1;
+	d = 1 + 2 / true;
+} 

@@ -1,0 +1,9 @@
+program { 
+	int b = 5555;
+
+	bool x = false;
+	bool c = true;
+
+	double d1 = 555.05;
+	double d2 = 0.022;
+}

@@ -1,0 +1,17 @@
+program { 
+    int b;
+    bool myBool;
+    bool c;
+    double d1; 
+
+    b = 53333;
+    b = 0;
+
+    myBool = false;
+    c = true;
+
+
+    d1 = 555.05;
+    d1 = 5.00000000;
+    d1 = 0.002662;
+}
