@@ -1,0 +1,18 @@
+program 
+{ 
+	double Double;
+	double doUble;
+	double doublE;
+
+	int Int;
+	int iNt;
+	int inT;
+
+	bool Bool;
+	bool booL;
+	bool bOol;
+
+	Int;
+	Double;
+	bOol;
+}

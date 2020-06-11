@@ -1,0 +1,18 @@
+program 
+{
+    bool iF;
+    bool elsE;
+    bool WhilE;
+
+    int reaD;
+    int Write;
+    int Program;
+
+    double Return;
+    double True;
+    double False;
+
+    False;
+    True;
+    iF;
+}
