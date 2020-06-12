@@ -6,6 +6,7 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 	
     %1 tests\%%a
 	
+	echo %%a 
     if !errorlevel! == 0 (
 		ilasm tests\%%a.il
 		if !errorlevel! == 0 (
