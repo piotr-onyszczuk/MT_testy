@@ -1,0 +1,13 @@
+program{
+double liczba;
+int n;
+liczba = 11.065;
+write "Kolejne liczby calkowite mniejsze od ";
+write liczba;
+write " to: ";
+while(n < liczba){
+write n;
+write "\n";
+n = n + 1;
+}
+}

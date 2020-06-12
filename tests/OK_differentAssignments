@@ -1,0 +1,14 @@
+program{
+    int a;
+    bool b;
+    double c;
+    b = (a = 1) != -(c = 1); //b = true
+    write b; write "\n";
+    c = a + (int) b; // c = 2
+    write c; write "\n";
+    a = (int)(c - (int)b) | 0 & 1; //a = 1
+    write a; write "\n";
+    if((a = 2) == 2 && !b == false){
+        write a; write b;
+    }
+}

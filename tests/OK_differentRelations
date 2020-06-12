@@ -1,0 +1,15 @@
+program{
+    write 1 == 1.0; //True
+    write "\n";
+    write 1 == (int)true; //True
+    write "\n";
+    write 1.05 != (int) 1.05; // True
+    write "\n";
+    write (int)(1.05 > 1) > 1; //False
+    write "\n";
+    write (int)(1.05 > 1) >= 1; //True
+    write "\n";
+    write 1 <= (double) 1; //True
+    write "\n";
+    write (int)((int)(1 < 2) < 2) < 2; //True
+}

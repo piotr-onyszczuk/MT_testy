@@ -1,0 +1,9 @@
+program
+{
+	int a;
+	double b;
+	bool c;
+	a = 5 * 2;
+	b = 10 / 3;
+	c = a > b || 5.078 < 15;
+}

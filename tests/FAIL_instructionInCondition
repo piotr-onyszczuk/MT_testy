@@ -1,0 +1,7 @@
+program{
+    bool a;
+    a = true;
+    if(write a){
+        write "If";
+    }
+}

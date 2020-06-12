@@ -1,0 +1,7 @@
+program
+{
+	int a;
+	bool b;
+	bool c;
+	double a;
+}

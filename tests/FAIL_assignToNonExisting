@@ -1,0 +1,7 @@
+program
+{
+  int liczbaA;
+  double liczbaB;
+  liczbaA = 5;
+  X = 4;
+}

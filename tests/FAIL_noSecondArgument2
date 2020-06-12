@@ -1,0 +1,9 @@
+program{
+    int a;
+    int b;
+    a = 2;
+    b = 3;
+    while(true && (double)a/b > ){
+        write "Przemek";
+    }
+}

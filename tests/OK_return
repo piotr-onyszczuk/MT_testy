@@ -1,0 +1,12 @@
+program{
+    int n;
+    n = 10;
+    while(n > 0){
+        if(n <= 5){
+            write n;
+            write " ";
+        }
+        n = n = n - 1;
+    }
+}
+//powinno wypisać: 5 4 3 2 1

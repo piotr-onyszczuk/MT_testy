@@ -1,0 +1,12 @@
+program
+{
+    write -(5*5-4);//-21
+    write "\n";
+    write !(true && false || false);//True
+    write "\n";
+    write ~~~~1;//1
+    write "\n";
+    write (int)12.895;//12
+    write "\n";
+    write (double)1/2;//0.500000
+}

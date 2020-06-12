@@ -1,0 +1,3 @@
+program{
+    write -!--((int)!true);//first ! cannot be assigned to int
+}

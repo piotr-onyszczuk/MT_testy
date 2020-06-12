@@ -1,0 +1,5 @@
+program{
+    bool b;
+    b = true;
+    write -b;
+}

@@ -1,0 +1,13 @@
+program
+{
+    if(1 > 0)
+        if(true && (true || false))
+            if(5 * 5 < 20)
+            {
+                write 1 > 0 && true && (true || false) && 5 * 5 < 20;
+            }
+            else
+                write "Nic";
+        else
+            write "Nic";
+}

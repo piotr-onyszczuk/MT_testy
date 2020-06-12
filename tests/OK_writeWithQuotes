@@ -1,0 +1,4 @@
+program
+{
+  write "Alibaba i 40 \"rozbojnikow\"";
+}

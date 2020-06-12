@@ -1,0 +1,17 @@
+program{
+    if(9 > 10)
+        write "9 > 10";
+    else
+    {
+        if(true || false && false)
+        {
+            write false;
+            write "\n";
+        }
+        else
+            if(!!false)
+                write false;
+            else
+                write "Uroczyscie przysiegam, ze knuje cos niedobrego.";
+    }
+}

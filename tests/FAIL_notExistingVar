@@ -1,0 +1,12 @@
+program{
+double liczba;
+int n;
+read liczba;
+write "Kolejne liczby calkowite mniejsze od ";
+write liczba;
+write "to: ";
+while(k < liczba){
+write n;
+n = n + 1;
+}
+}

@@ -1,0 +1,19 @@
+program{
+    //test
+    //sprawdzajacy
+
+    //operacje bitowe
+    write 1 | 0 & 0; //0
+    write "\n";
+    write (double) (1 | 0 | 0 | 0); //1.000000
+    write "\n";
+    write 0 | ((1 & 0) | ~~1); //1
+    write "\n";
+    write 1 & 0 | 1 == 1 | 0 & 1; // True
+    write "\n";
+    write !((int)(0 | 0 == 0 | 1) == (int)(1 & 1 == 1 & 0)); //False
+    write "\n";
+    if(1 & 1 & 1 & 1 | 0 == (int)1.25){
+        write "Koniec";
+    }
+}

@@ -1,0 +1,5 @@
+program{
+    bool Piotrek;
+    int Przemek;
+    Przemek = Piotrek = true && !(1 != 1);
+}

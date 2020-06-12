@@ -1,0 +1,13 @@
+program
+{
+  int a;
+  bool b;
+  
+  a = 5;
+  while(a > 0)
+  {
+    write a + 1.0756;
+    write "\n";
+    a = a - 1;
+  }
+}

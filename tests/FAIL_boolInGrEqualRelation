@@ -1,0 +1,8 @@
+program{
+    bool b;
+    int a;
+    a = 5;
+    b = true;
+    if(a >= b)
+        write "Michal";
+}

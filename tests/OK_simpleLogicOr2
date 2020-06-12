@@ -1,0 +1,5 @@
+program
+{
+  bool wynik;
+  wynik = true || false || true;
+}

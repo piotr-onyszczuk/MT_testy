@@ -1,0 +1,13 @@
+program{
+    write (5 + 5) * 2.5 - 18 == (int) 7.35; // True
+    write "\n";
+    write 1 / 2 == (double) 1 / 2; //False
+    write "\n";
+    write (double) 64 / 2 / 2 / 2 / 2 / 2 / 2; // 1.000000
+    write "\n\n\n";
+    write (4 - 2 - 1) * (5 - 3 - 1) * ((-2 + 3) + 1 - (int)!(true == false)); // 1
+    write "\n";
+    write 2 + 3 * 3 + 5 + 10 / 2 - 6; //15
+    write "\n";
+    write 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5 * 1.5; // 17.085938
+}

@@ -1,0 +1,10 @@
+program
+{
+  int a;
+  int b;
+  bool wynik;
+  bool wynik2;
+  a = 200;
+  b = 200;
+  wynik = wynik2 = true == false || a <= b && a >= b;
+}
