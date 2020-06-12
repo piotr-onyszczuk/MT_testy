@@ -1,0 +1,10 @@
+program{
+int a; int b; double c;
+a = 5;
+b = 8;
+c = 0.2;
+while(true && (double) b/a - 1 >= c){
+ write "Loop";
+ b = -(1-b); //b-1
+}
+}

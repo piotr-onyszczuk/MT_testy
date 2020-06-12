@@ -1,0 +1,9 @@
+program
+{
+  int a;
+  int b;
+  bool wynik;
+  a = 200;
+  b = 200;
+  wynik = true == false || a == b;
+}

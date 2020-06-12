@@ -1,0 +1,13 @@
+program{
+    write ~~---(int)!false; // -1
+    write "\n";
+    write (double)!!!false * -(double)-0.25; //0.250000
+    write "\n";
+    write ~~((int)9.999 + --5); // 14
+    write "\n";
+    write !(!true && !false);//True
+    write "\n";
+    write (int)((int)(double)8 + 0.12); //8
+    write "\n";
+    write ~(int)~~~(int)7.458927364; //7
+}

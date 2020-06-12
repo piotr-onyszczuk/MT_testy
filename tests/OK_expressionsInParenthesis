@@ -1,0 +1,12 @@
+program{
+    bool b;
+    write (((5+5)))+3; //13
+    write "\n";
+    write (7+7.5) == (16-1.5) && (b = true); //True
+    write "\n";
+    write (double)((int)(20 + 1.45)*3) + 2; //65.000000
+    write "\n";
+    write (int)(double)(double)((1)&(1|0)); //1
+    write "\n";
+    write b && ((b = false) || (b = true)); // True
+}

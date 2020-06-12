@@ -1,0 +1,5 @@
+program{
+    double a;
+    a = 1;
+    write !a;
+}

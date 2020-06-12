@@ -1,0 +1,8 @@
+program
+{
+	int a;
+	bool b;
+	a = 5;
+	b = true || false
+	a = ;
+}

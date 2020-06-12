@@ -1,0 +1,11 @@
+program
+{
+    if(1 > 0)
+    {
+        write true;
+    }
+    else
+        write false;
+    else
+        write "Not matching else";
+}

@@ -1,0 +1,32 @@
+program {
+    write (int) 1.25 == (int) true; //True
+    write "\n";
+    write (int) 1.25 == (int) 1.9999; //True
+    write "\n";
+    write (int) 1.00001 == (int) 1.99999; //False
+    write "\n";
+    write (double) 1 == (int) 1; //True
+    write "\n";
+
+    write (double) true == (int) true; //True
+    write "\n";
+    write (double) true == (double) true; //True
+    write "\n";
+    write (int) true == (int) true; //True
+    write "\n";
+
+    write (int) false == (double) false; //True
+    write "\n";
+    write (double) false == (double) false; //True
+    write "\n";
+    write (int) false == (int) false; //True
+    write "\n";
+
+    write (double) true == (double) false; //False
+    write "\n";
+    write (int) true == (double) false; //False
+    write "\n";
+    write (double) true == (int) false; //False
+    write "\n";
+    write (int) true == (int) false; //False
+}

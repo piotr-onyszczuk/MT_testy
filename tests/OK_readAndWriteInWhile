@@ -1,0 +1,12 @@
+program{
+int a; int b; double c;
+a = 5;
+b = 7;
+c = 0.2;
+while(true && b/(double)a - 1 >= c){
+ write "Loop";
+ b = -(1-b); //b-1
+}
+}
+
+//powinno wypisa� 1 raz "Loop", jesli d jest true na wejsciu
