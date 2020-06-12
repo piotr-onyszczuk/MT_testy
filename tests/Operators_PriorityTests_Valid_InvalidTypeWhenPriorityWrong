@@ -10,16 +10,16 @@ program
     b = num * 5 == real / 2.0;
     b = ~1 == (int)2.0;
 
-    // ~1 == (int)24.0/1 & (int) !true &&  1 == 1;
-    //  x == (int)24.0/1 & (int) !true &&  1 == 1;
-    //  x ==      24  /1 & (int) !true &&  1 == 1;
-    //  x ==      24  /1 & (int) false &&  1 == 1;
+    // ~1 == (int)24.0/1 & (int) !false &&  1 == 1;
+    //  x == (int)24.0/1 & (int) !false &&  1 == 1;
+    //  x ==      24  /1 & (int) !false &&  1 == 1;
+    //  x ==      24  /1 & (int) true &&  1 == 1;
     //  x ==      24  /1 & 1           &&  1 == 1;
     //  x ==      24  /  1             && 1 == 1;
     //  x == 24 &&  1 == 1;
     // false && true
     // false
-    b = ~1 == (int)24.0/1 & (int) !true &&  1 == 1;
+    b = ~1 == (int)24.0/1 & (int) !false &&  1 == 1;
 
     // (int)(true == !(num == 1 & 1 == num != 1 | 0 | 1 | ~2));
     // (int)(true == !(num == 1 & 1 == num != 1 | 0 | 1 |  x));
