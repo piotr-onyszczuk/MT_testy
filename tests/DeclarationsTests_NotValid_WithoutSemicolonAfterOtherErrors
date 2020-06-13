@@ -7,5 +7,5 @@ program {
     double 1$;
     int 5!;
     double &;
-    int &&;
+    int &&
 }

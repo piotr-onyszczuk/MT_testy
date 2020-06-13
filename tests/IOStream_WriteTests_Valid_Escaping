@@ -1,0 +1,5 @@
+program {
+    write "\"\n";
+    write " \"Heh heh\" \n";
+    write "\\\n";
+}

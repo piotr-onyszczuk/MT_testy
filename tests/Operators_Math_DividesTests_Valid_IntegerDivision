@@ -1,0 +1,8 @@
+program {
+    int n;
+  
+    n = 5 / 2;
+    write n; write "\n";
+    n = 6 / 2;
+    write n;
+}

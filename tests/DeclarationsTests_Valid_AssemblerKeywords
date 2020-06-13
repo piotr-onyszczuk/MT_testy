@@ -1,0 +1,16 @@
+program { 
+	double float64;
+	int int32;
+
+	bool ceq;
+	int dup;
+	bool clt;
+	double stloc;
+	int pop;
+
+	bool or;
+	bool and;
+	bool neg;
+
+	int ldloca;
+}

@@ -1,0 +1,7 @@
+program {
+    write;
+    read;
+    int;
+    double;
+    bool;
+}

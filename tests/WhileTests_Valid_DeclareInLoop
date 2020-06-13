@@ -1,0 +1,9 @@
+//BBB
+program {
+    int n;
+    n = 1;
+    while (n <= 100000) {
+      int k;
+      n = n + 1;  
+    }
+}

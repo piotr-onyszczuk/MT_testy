@@ -1,0 +1,10 @@
+program { 
+	int a;
+	a = 5;
+
+	write a;
+	write "\n";
+
+	write a + 5;
+	write "\n";
+}

@@ -1,0 +1,11 @@
+program { 
+	int stloc;
+	int ldc;
+	bool ldloc;
+	double br;
+
+	stloc = 5;
+	ldloc = true;
+	ldc = -5;
+	br = 0.505;
+}

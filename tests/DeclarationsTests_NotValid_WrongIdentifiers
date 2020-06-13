@@ -1,0 +1,15 @@
+program {
+    int 1;
+    int 5x;
+    
+    double _abc;
+    double ab_cd;
+    
+    bool int;
+    double bool;
+    int double;
+    
+    int &&;
+    int +;
+    int {(1 + 2) / 3 * 4};
+}

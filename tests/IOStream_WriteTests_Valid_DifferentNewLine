@@ -1,0 +1,6 @@
+program {
+    write "\n";
+    write "\r";
+    write "\r\n";
+    write "\n\r";
+}

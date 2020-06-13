@@ -1,12 +1,8 @@
-program { 
-    int a;
-    bool b;
-
-    a | b;
-    true | false;
-    true | 1;
-    1 | true;
-    1.0 | 1;
-    1 | 1.0;
-    1.0 | 1.0;
+program {
+    int x;
+    x = true | 6;
+    x = 5 | false;
+    x = 1.0 | 5;
+    x = 1 | 5.78;
+    x = 3.14 | 5.7;
 }

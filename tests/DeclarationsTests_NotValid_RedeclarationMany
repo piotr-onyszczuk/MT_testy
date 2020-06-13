@@ -1,0 +1,11 @@
+program {
+    int x;
+    int x;
+    
+    double y;
+    double y;
+    
+    bool z;
+    bool z;
+    bool z;
+}

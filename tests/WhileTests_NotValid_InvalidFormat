@@ -1,0 +1,9 @@
+program {
+    while true {} // Missing parentheses
+    
+    while (1 < 2) {} ; // Maybe valid maybe not. // TODO
+    
+    while (1) {} // int
+    
+    while (0.0 + 3.14) {} // double
+}

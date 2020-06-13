@@ -1,0 +1,7 @@
+program {
+    bool b;
+    b = 1 == true;
+    b = 5.0 != false;
+    b = true <= true;
+    b = false > 3.14;
+}

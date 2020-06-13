@@ -1,0 +1,8 @@
+program {
+    
+    int x;
+    x1 = 1;
+    
+    double k;
+    k = a + b;
+}

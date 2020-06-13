@@ -1,0 +1,17 @@
+program {
+    int a;
+    double d;
+    bool b;
+
+    d = 0.5;
+    a = 2;
+    if (a == d) {
+        a = 0;
+        b = false;
+    }
+    else {
+        d = a;
+        d = 0.5;
+        d = 0.6;
+    }
+}

@@ -1,0 +1,46 @@
+program 
+{ 
+	int k;
+	bool isPrime;
+	int num;
+	int val;
+	int val2;
+	int i;
+
+	read k;
+	i = 2;
+	// We could use sieve of Eratosthenes if we had array
+	while (i < k)
+	{
+		isPrime = false;
+		// IsPrime function start
+			num = i;
+			if(num <= 3)
+			{
+				isPrime = true;
+			}
+			else if((num/2)*2 != num && (num/3)*3 != num)
+			{
+				val = 5;
+				while(val * val <= num && val > 4)
+				{
+					val2 = val + 2;
+					if ((n/val)*val == val || (n/val2)*val2 == val2)
+					{
+						val = 4;
+					}					
+					else
+					{
+						val = val + 6;
+					}
+				}
+				
+				isPrime = val != 4;
+			}
+		// IsPrime function end
+		
+		if(isPrime)
+			write i;
+		i = i + 1;
+	}
+}

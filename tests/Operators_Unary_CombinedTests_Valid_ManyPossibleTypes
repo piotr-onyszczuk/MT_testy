@@ -1,0 +1,26 @@
+program {
+    int x;
+    double d;
+    bool b;
+    x = -1;
+    x = ---(--(--(((-5)))));
+    x = ~5;
+    x = -~~-6 - ~~-4;
+    x = (int) 3.1415;
+    x = ((int)(-1.54)); 
+    x = (int) true;
+    x = (int) false;
+    
+
+    d = 5;
+    d = -d;
+    d = -1 - -2;
+    
+    d = (double) 5;
+    d = ((double) 5.6);
+    d = (double) true;
+    d = (double) (!false);
+    
+    b = !true;
+    b = ! false;
+}

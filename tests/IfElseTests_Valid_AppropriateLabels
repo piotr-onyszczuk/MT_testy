@@ -1,0 +1,39 @@
+//BBB
+program {
+    int a;
+    double d;
+    bool b;
+
+    d = 0.5;
+    a = 2;
+    if ( a == d) {
+        int c;
+        if (c == d){
+            int c;
+        }
+        else if(c == a){
+            int c;
+            int x;
+            if((c == x) == (c==a)){
+                int c;
+                int x;
+                int a;
+                int y;
+            }
+        }
+        else
+            a = 0;
+
+        if (a == d)
+            d = 0.55;
+         else
+            b = false;
+
+        write b;
+    }
+    else {
+        d = a;
+        d = 0.5;
+        d = 0.6;
+    }
+}

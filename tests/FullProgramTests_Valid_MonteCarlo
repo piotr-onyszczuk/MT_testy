@@ -1,0 +1,44 @@
+program {
+    double a; double c; double m; // RNG magic numbers
+    double seed; // RNG SEED
+    double x; double y; // Coordinates
+    int i; int iters; // Loop index
+    int inside;
+    double pi;
+    
+    iters = 1000;
+    
+    seed = 123456789;
+    a = 48271;
+    c = 0;
+    m = 2147483647; // 2^31 - 1, max int
+    
+    while (i < iters) {
+    
+        // Create a new pseudorandom coordinate using an LCG
+        seed = a * seed + c;
+        while (seed > m) {
+            seed = seed - m;
+        }
+        
+        x = 2 * seed / m - 1;
+        
+        // Create another pseudorandom coordinate
+        seed = (a * seed + c);
+        while (seed > m) {
+            seed = seed - m;
+        }
+        
+        y = 2 * seed / m - 1;
+        
+        // Check if point is inside the circle
+        if (x * x + y * y <= 1)
+            inside = inside + 1;
+    
+        i = i + 1; // Increment loop counter
+    }
+    
+    pi = 4.0 * inside / iters;
+    write "PI between 3 and 3.3: ";
+    write pi > 3 && pi < 3.3;
+}

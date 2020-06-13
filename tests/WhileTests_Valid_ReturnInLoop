@@ -1,0 +1,9 @@
+program {
+    int n;
+    n = 5;
+    while (n <= 100) {
+      write n; write "\n";
+      n = n + 1; 
+      return;
+    }
+}

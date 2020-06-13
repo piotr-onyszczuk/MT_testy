@@ -1,0 +1,11 @@
+program
+{
+    Int x;
+    doublE y;
+    BOOL z;
+    
+    WRITE 1;
+    
+    int k;
+    reAd k;
+}
