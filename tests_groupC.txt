@@ -1,2 +1,5 @@
 Int_Array_Add_Two_Elems
 Simple_Array_With_Hiding
+TableCreationAndAssingment_Valid
+MultiDimmensionTableCreateAndAssign_Valid
+TableCreationUsingVariablesAndExpresions_Valid

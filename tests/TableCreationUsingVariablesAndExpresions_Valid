@@ -1,0 +1,34 @@
+program{
+double[
+] tab;
+double[
+,
+,
+] tab3;
+int n, l;
+n= 3;
+l = 1;
+
+create tab[n
+-l];
+create tab3[n,
+2,
+n-l];
+
+tab[(n-l
+)
+-l] = 3.0;
+tab3[(n-
+l),
+1,(n-l)-l] = 3.0;
+
+write tab[(n-
+l)-l];
+write "\n";
+write tab3[(n-l
+),1
+,(n-l
+)-l];
+
+
+}

@@ -1,0 +1,45 @@
+program{
+
+int[] it, it2, it3;
+double[] dt, dt2, dt3;
+bool[] bt, bt2, bt3;
+
+create it[3];
+create it2[4];
+create it3[5];
+create dt[3];
+create dt2[4];
+create dt3[5];
+create bt[3];
+create bt2[4];
+create bt3[5];
+
+it[1] = 1;
+it2[2] = it[1];
+it3[3] = 4;
+dt[1] = 1.0;
+dt2[2] = dt[1];
+dt3[3] = 4.0;
+bt[1] = true;
+bt2[2] = bt[1];
+bt3[3] = false;
+
+write it[1];
+write "\n";
+write it2[2];
+write "\n";
+write it3[3];
+write "\n";
+write dt[1];
+write "\n";
+write dt2[2];
+write "\n";
+write dt3[3];
+write "\n";
+write bt[1];
+write "\n";
+write bt2[2];
+write "\n";
+write bt3[3];
+
+}
