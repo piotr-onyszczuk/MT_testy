@@ -2,4 +2,8 @@ program {
     write "\"\n";
     write " \"Heh heh\" \n";
     write "\\\n";
+    write "\u0065";
+    write "\n";
+    write "\x65";
+    write "\n";
 }
