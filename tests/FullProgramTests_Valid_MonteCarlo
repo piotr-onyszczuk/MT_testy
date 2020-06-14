@@ -1,3 +1,4 @@
+// By Kuba Janaszkiewicz
 program {
     double a; double c; double m; // RNG magic numbers
     double seed; // RNG SEED

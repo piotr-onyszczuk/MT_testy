@@ -1,3 +1,4 @@
+// Based on Kuba Janaszkiewicz test
 program { 
     double d;
     d = 1..2;

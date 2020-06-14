@@ -1,3 +1,4 @@
+// Based on Kuba Janaszkiewicz test
 program { 
     int b;
     bool myBool;

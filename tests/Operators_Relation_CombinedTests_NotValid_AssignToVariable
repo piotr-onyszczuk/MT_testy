@@ -1,3 +1,4 @@
+// By Kuba Janaszkiewicz
 program {
     bool b;
     b = 1 == true;
