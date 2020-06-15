@@ -30,7 +30,7 @@ for /f "tokens=*" %%a in (tests_groupC.txt) do (
 		echo error> results\%%a
 	)
 	if !problem! == 2 (
-		echo error_wrong> results\%%a
+		echo critical_error> results\%%a
 	)
 )
 
