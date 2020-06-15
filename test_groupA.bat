@@ -13,11 +13,14 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 			peverify tests\%%a.exe 
 			if !%errorlevel! == 0 (
 				tests\%%a.exe > results\%%a
+				if NOT !%errorlevel! == 0 (
+					set /A problem = 2
+					)
 			) else (
-				set /A problem = 1
+				set /A problem = 2
 			)
 		) else (
-			set /A problem = 1
+			set /A problem = 2
 		)
 	) else (
 		set /A problem = 1
@@ -25,6 +28,9 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 	
 	if !problem! == 1 (
 		echo error> results\%%a
+	)
+	if !problem! == 2 (
+		echo error_wrong> results\%%a
 	)
 )
 
