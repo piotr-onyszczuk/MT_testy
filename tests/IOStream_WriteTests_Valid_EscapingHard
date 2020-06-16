@@ -1,0 +1,69 @@
+program
+{
+    write "";
+    write "\n";
+
+
+    write " ";
+    write "\n";
+
+    write "\\";
+    write "\n";
+
+    write "\\ "; 
+    write "\n";
+
+    write " \\";
+    write "\n";
+    
+    write "\ \ ";
+    write "\n";
+    
+    write "\\ \\ ";
+    write "\n";
+
+    write "\\ \ \ \ \ \\ \ \\ \\ \ \ ";
+    write "\n";
+
+    write "\\ \\\ \\\ "; 
+    write "\n";
+    
+    write "\\\\";
+    write "\n";
+
+    write "\\\\\\\\"; 
+    write "\n";
+
+    write "\m";
+    write "\n";
+
+    write "\r";
+    write "\n";
+    
+    write "\"";
+    write "\n";
+
+    write "\"\"";
+    write "\n";
+
+    write "\\\"";
+    write "\n";
+    
+    write "\\\\\\\\\"";
+    write "\n";
+
+    write "\\\"\\";
+    write "\n";
+    
+    write "\"\"\\\"\\\\\"\\\\\\\"\\\\\\\"\\\\\"\\\"\"";
+    write "\n";
+
+    write "\uxx\"";
+    write "\n";
+    
+    write "\\\"hey\"\\";
+    write "\n";
+
+    write "\\\E\s\c\a\p\e\ \i\t\ \a\l\l\\";
+    write "\n";
+}
