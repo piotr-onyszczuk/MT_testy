@@ -12,7 +12,11 @@ for /f "tokens=*" %%a in (tests_groupB.txt) do (
 		if !errorlevel! == 0 (
 			peverify tests\%%a.exe 
 			if !%errorlevel! == 0 (
-				tests\%%a.exe > results\%%a
+				if exist inputs\%%a (
+					tests\%%a.exe < inputs\%%a > results\%%a
+				) else (
+					tests\%%a.exe > results\%%a
+				)
 				if NOT !%errorlevel! == 0 (
 					set /A problem = 2
 					)
