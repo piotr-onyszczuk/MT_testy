@@ -1,0 +1,18 @@
+jak to działa
+
+
+	
+w pliku tests.txt jest lista plików testowych
+	pliki wymienione w tests.txt powinny znajdować się w folderze tests\
+	oczekiwane wyniki powinny znajdować się w expected_results\ i mieć dokładnie takie same nazwy jak pliki w tests\
+	
+
+		
+w przypadku oczekiwanego błędu kompilacji, plik z expected_results\ powinien zawierać "error" (przykład na repo)
+	
+	
+	odpalamy plik test.bat (z VS CMD, z folderu gdzie znajduje się ten bat), pierwsym argumentem MUSI być ścieżka do exe z naszego projektu
+	generowane są outputy do folderu results\ i porównywne z expected_results\
+	wszystkie znalezione różnice są w pliku errors.txt
+	
+	UWAGA: nie może być ReadKey ani ReadLine (na czas developowania polecam dodanie ReadKey gdy args.Length ==0)
