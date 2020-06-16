@@ -16,7 +16,12 @@ for a in $(cat tests.txt); do
             peverify --verify all "tests/${a}.exe"
 
             if [ $? -eq 0 ]; then
-                mono "tests/${a}.exe" > "results/${a}"
+
+                if [ -f "inputs/$a" ]; then
+                    mono "tests/${a}.exe" < "inputs/$a" > "results/$a"
+                else
+                    mono "tests/${a}.exe" > "results/$a"
+                fi
 
                 if [ $? -ne 0 ]; then
                     error=2
