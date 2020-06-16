@@ -1,6 +1,8 @@
 program{
 double k;
-int q,w,e;
+int q;
+int w;
+int e;
 
 
 k = 2;
