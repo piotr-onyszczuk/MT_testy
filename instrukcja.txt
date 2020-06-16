@@ -6,6 +6,8 @@ w pliku tests.txt jest lista plików testowych
 	pliki wymienione w tests.txt powinny znajdować się w folderze tests\
 	oczekiwane wyniki powinny znajdować się w expected_results\ i mieć dokładnie takie same nazwy jak pliki w tests\
 	
+	analogicznie w inputs\ powinien znajdować się oczekiwany plik wejściowy (jeśli potrzebny)
+	
 
 		
 w przypadku oczekiwanego błędu kompilacji, plik z expected_results\ powinien zawierać "error" (przykład na repo)
