@@ -1,0 +1,5 @@
+// By Kuba Janaszkiewicz
+program {
+    bool z;
+    z = "napis3";
+}
