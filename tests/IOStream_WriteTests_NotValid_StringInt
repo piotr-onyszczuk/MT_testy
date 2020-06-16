@@ -1,0 +1,5 @@
+// By Kuba Janaszkiewicz
+program {
+    int x;
+    x = "napis1";
+}

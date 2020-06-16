@@ -1,0 +1,8 @@
+program{
+	int i;
+
+	while(i == 0)
+		while(i == 0)
+			while(i == 0)
+				write i = i + 1;
+}
