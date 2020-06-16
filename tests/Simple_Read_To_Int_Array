@@ -1,0 +1,7 @@
+program { 
+    int [,]a;
+
+    create a [2,2];
+    read a[1,1];
+    write a[1,1];
+}
