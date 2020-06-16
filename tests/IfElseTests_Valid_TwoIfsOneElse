@@ -2,24 +2,24 @@ program {
 	if ( true ) 
 		if ( true ) 
 			write "poo\n";
-		else x=2; 
+		else
 			write "boo\n";
 
 	if ( true ) 
 		if ( false ) 
 			write "too\n";
-		else x=2; 
+		else 
 			write "doo\n";
 
 	if ( false ) 
 		if ( true ) 
 			write "goo\n";
-		else x=2; 
+		else
 			write "koo\n";
 
 	if ( false ) 
 		if ( false ) 
 			write "woo\n";
-		else x=2; 
+		else
 			write "foo\n";
 }
