@@ -4,9 +4,10 @@ SetLocal EnableDelayedExpansion
 for /f "tokens=*" %%a in (tests_for5.txt) do (
     set /A problem = 0
 	
+	echo %%a
+	
     %1 tests\%%a
 	
-	echo %%a
     if !errorlevel! == 0 (
 		ilasm tests\%%a.il
 		if !errorlevel! == 0 (
