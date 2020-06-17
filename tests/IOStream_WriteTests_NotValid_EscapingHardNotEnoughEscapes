@@ -1,0 +1,4 @@
+program {
+    // Penultimate quote
+    write "\"\\\" You may think it's valid but, it\'s not.\\"\"";
+}

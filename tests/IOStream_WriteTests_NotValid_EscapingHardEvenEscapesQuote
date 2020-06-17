@@ -1,0 +1,4 @@
+program {
+    // Even number with quote
+    write "\\\\\\\\\\\\\\\\\\"";
+}

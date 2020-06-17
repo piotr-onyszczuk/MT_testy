@@ -1,0 +1,4 @@
+program {
+    // Odd number
+    write "\\\\\\\\\\\\\\\\\";
+}
