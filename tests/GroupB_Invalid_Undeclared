@@ -1,0 +1,12 @@
+program {
+	int a;
+	{
+		write a; write "\n";
+		{
+			double c;
+			write c; write "\c";
+			{ write c; write "\c"; }
+		}
+		write c;
+	}
+}

@@ -9,3 +9,8 @@ WhileTests_Valid_DeclareInLoop
 FullProgramTests_Valid_Rsa
 FullProgramTests_Valid_Rsa1
 FullProgramTests_Valid_Rsa2
+GroupB_Valid_WriteTests
+GroupB_Valid_MathOperations
+GroupB_Valid_ReadOperations
+GroupB_Invalid_Undeclared
+GroupB_Invalid_AlreadyDeclared

@@ -1,0 +1,29 @@
+program {
+	int a;
+	
+	{
+		{ 
+			{ read a; }
+		}
+		write a; write "\n";
+	}
+	{
+		int a;
+		read a;
+		write a; write "\n";
+	}
+	write a; write "\n";
+	{
+		double a;
+		{
+			read a;
+			write a; write "\n";
+			{
+				bool c;
+					read c;
+					write c; write "\n";
+			}
+		}
+	}
+	write a; write "\n";
+}

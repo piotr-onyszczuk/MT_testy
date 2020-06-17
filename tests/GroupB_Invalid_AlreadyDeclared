@@ -1,0 +1,13 @@
+program {
+	int a;
+	{
+		double a;
+		
+		{
+			bool a;
+			double b;
+			int c;
+			int a;
+		}
+	}
+}

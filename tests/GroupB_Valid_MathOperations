@@ -1,0 +1,35 @@
+program {
+	int a;
+	a = 2;
+	{
+		int b ;
+		b = 3;
+		write (double)a / b; write "\n";
+		{
+			double c;
+			c =4.5;
+				write a / (b * c); write "\n";
+				{
+				 int c;
+				 write a | c; write "\n";
+				}
+		}
+		{
+			write (double) b / a; write "\n";
+			if (true)
+			{
+				double a; int c; bool b;
+				a = 3;
+				b = true;
+				c = -1;
+				write b == (c < a) && c / a  == -1/(double)3; write "\n";
+			}
+			{
+			int a; a=2;
+				{ while (a > 0) { int b; b = 0;
+					write a; write " "; write b; write "\n"; a = a - 1;}}
+			}
+		}
+		write a; write "\n";
+	}
+}
