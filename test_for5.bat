@@ -47,3 +47,13 @@ for /f "tokens=*" %%a in (tests_for5.txt) do (
 		fc results\%%a expected_results\%%a >> errors_for5.txt
 	)
 )
+
+call test.bat %1
+call test_groupA.bat %1
+call test_groupB.bat %1
+call test_groupC.bat %1
+type errors.txt >> errors_for5.txt
+type errors_groupA.txt >> errors_for5.txt
+type errors_groupB.txt >> errors_for5.txt
+type errors_groupC.txt >> errors_for5.txt
+errors_for5.txt
