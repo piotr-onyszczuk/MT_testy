@@ -1,0 +1,47 @@
+program {
+	int a;
+	a = 2;
+	write a; write "\n";
+	{
+		{
+			a = 3;
+			write a; write "\n";
+		}
+	}
+	write a; write "\n";
+	{
+		{
+			int a;
+			a = 2;
+			write a; write "\n";
+		}
+		write a; write "\n";
+	}
+	{
+		{
+			double a;
+			a = -2.5;
+			write a; write "\n";
+		}
+		write a; write "\n";
+		{
+			bool a;
+			a = false;
+			write a; write "\n";
+		}
+		write a; write "\n";
+	}
+	{
+		double a;
+		a = - 21.37;
+		{
+			bool a;
+			a = true;
+			write a; write "\n";
+		}
+		write a; write "\n";
+	}
+	write a; write "\n";
+	{ {{ {a = 4;}}} }
+	write a; write "\n";
+}
