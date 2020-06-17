@@ -1,0 +1,50 @@
+program{
+int [,] tab, tab2;
+int n;
+int i;
+double s;
+n = 7;
+create tab[1,4];
+tab[0,0] = 10;
+create tab2[2,2];
+
+while(true){
+	int [,] tab2;
+	create tab2[2,2];
+	tab2[1,1] = i;
+	write tab2[1,1];
+	write "\n";
+	write tab[0,0];
+	write "\n";
+	i = i+1;
+	tab[0,0] = tab[0,0] + i;
+	if(tab[0,0] == 10 + i){
+		write "continue";
+		write "\n";
+		continue;
+		}
+	while(true){
+		while(true){
+			while(true){
+			int n;
+			n=3;
+			write n;
+			write "\n";
+			tab2[1,1] = tab2[1,1]+ 1;
+			write tab2[1,1];
+			write "\n";
+			if(tab2[1,1] > n) {
+			write "break";
+			write "\n";
+			break 3;
+			}
+			}
+		}
+	}
+	write i;
+	write "\n";
+	
+	if(i > n)
+	break;
+}
+}
