@@ -11,6 +11,7 @@ program {
 				write a / (b * c); write "\n";
 				{
 				 int c;
+				 c = 0;
 				 write a | c; write "\n";
 				}
 		}

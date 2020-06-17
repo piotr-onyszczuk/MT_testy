@@ -26,6 +26,7 @@ program {
 		write a; write "\n";
 		{
 			bool a;
+			a = false;
 			write a; write "\n";
 		}
 		write a; write "\n";
