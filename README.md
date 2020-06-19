@@ -14,4 +14,4 @@ Outputy z results\ porównywane są z expected_results\. Wszystkie znalezione r�
 
 Test "test_for5.bat", oprócz testów z "tests_for5.txt" agreguje wszystkie pozostałe grupy tesów.
 	
-W kompilatorze nie może być ReadKey ani ReadLine (na czas developowania polecam dodanie ReadKey gdy args.Length ==0).
+W kompilatorze nie może być ReadKey ani ReadLine.
