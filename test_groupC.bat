@@ -8,6 +8,8 @@ for /f "tokens=*" %%a in (tests_groupC.txt) do (
 	
     %1 tests\%%a
 	
+	echo !errorlevel!
+	
     if !errorlevel! == 0 (
 		ilasm tests\%%a.il
 		if !errorlevel! == 0 (
@@ -28,7 +30,11 @@ for /f "tokens=*" %%a in (tests_groupC.txt) do (
 			set /A problem = 2
 		)
 	) else (
+		if !errorlevel! LSS 0 (
+			set /A problem = 3
+		) else (
 		set /A problem = 1
+		)
 	)
 	
 	if !problem! == 1 (
@@ -36,6 +42,10 @@ for /f "tokens=*" %%a in (tests_groupC.txt) do (
 	)
 	if !problem! == 2 (
 		echo critical_error> results\%%a
+	)
+	
+	if !problem! == 3 (
+		echo compiler_error> results\%%a
 	)
 )
 

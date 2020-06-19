@@ -28,7 +28,11 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 			set /A problem = 2
 		)
 	) else (
+		if !errorlevel! LSS 0 (
+			set /A problem = 3
+		) else (
 		set /A problem = 1
+		)
 	)
 	
 	if !problem! == 1 (
@@ -36,6 +40,10 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 	)
 	if !problem! == 2 (
 		echo critical_error> results\%%a
+	)
+	
+	if !problem! == 3 (
+		echo compiler_error> results\%%a
 	)
 )
 
