@@ -1,6 +1,6 @@
-## Narzędzie służy do testowania języka MiNI (patrz \doc).
+# Narzędzie służy do testowania języka MiNI (patrz \doc).
 
-#Struktura testów
+### Struktura testów
 
 W plikach tests.txt, tests_groupA.txt, itp. znajdują się listy plików testowych
 	
@@ -8,7 +8,7 @@ Pliki wymienione, np. w tests.txt powinny znajdować się w folderze \tests, ocz
 	
 W przypadku oczekiwanego błędu kompilacji, plik z \expected_results powinien zawierać "error", przykłady już istnieją.
 	
-#Jak testowac
+### Jak testowac
 	
 Do testowania służą pliki *.bat. odpalamy plik test.bat (z VS CMD, z folderu gdzie znajduje się ten bat), pierwsym argumentem MUSI być ścieżka do exe z naszego projektu.
 	
@@ -16,7 +16,7 @@ Pliki te generują wyniki do folderu \results. Komunikat "critical_error" w plik
 
 Outputy z results\ porównywane są z expected_results\. Wszystkie znalezione różnice są w pliku errors.txt. Jeśli zawiera on tylko linijkę "errors_detected" - oznacza to że wszystko jest OK.
 
-#Uwagi
+### Uwagi
 
 Test "test_for5.bat", oprócz testów z "tests_for5.txt" agreguje wszystkie pozostałe grupy tesów.
 	
