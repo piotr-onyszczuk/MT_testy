@@ -1,0 +1,5 @@
+program{
+double[,,,,,,,] tab1;
+double[,,,,,,,] tab2;
+tab1 = tab2;
+}
