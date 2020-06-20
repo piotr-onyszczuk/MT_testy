@@ -1,4 +1,5 @@
 program{
-double[,,,,,,,] tab1, tab2;
+double[,,,,,,,] tab1;
+double[,,,,,,,] tab2;
 tab1 = tab2;
 }
