@@ -64,3 +64,4 @@ type errors.txt >> errors_for5.txt
 type errors_groupA.txt >> errors_for5.txt
 type errors_groupB.txt >> errors_for5.txt
 type errors_groupC.txt >> errors_for5.txt
+errors_for5.txt
