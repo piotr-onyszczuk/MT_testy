@@ -1,0 +1,4 @@
+program{
+int[] tab1, tab2;
+tab1 = tab2;
+}
