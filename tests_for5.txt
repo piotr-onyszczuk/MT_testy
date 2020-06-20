@@ -3,5 +3,3 @@ test2
 test_dec
 test_dec2
 Everything_valid
-Error_Array_Assign_1
-Error_Array_Assign_2
