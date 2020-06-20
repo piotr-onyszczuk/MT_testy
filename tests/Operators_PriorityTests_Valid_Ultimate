@@ -1,0 +1,57 @@
+program
+{
+    bool   cond;
+    int    num;
+    double dec;
+    double temp;
+
+    cond = num <= num == !(dec > dec); 
+    if(!cond) return;
+
+    cond = cond && (~num == ~num || num/0 == 0);
+    if(!cond) return;
+    
+    cond = cond && (num + dec == 0 || dec / 0.0 < num / 0.0);
+    if(!cond) return;
+
+    temp = (temp = 1) + (temp = 2.0) - 2.0     +  // 1.0
+      10*  (int)(--dec == ----dec)             +  // 10
+      100*  (double)!(num < num)               +  // 100.0 
+      1000*  (int) (num > num == true)         +  // 0
+      10000*  (double) (num | ~num < dec - 1)  +  // 0.0
+      100000*  (int) ((num+2) & (num+2) == 2)  +  // 100 000
+      1000000*  (double) (-~num / ~num == -1)  +  // 1 000 000.0
+      10000000*  (int)   (num / -~num | -~num)  +  // 0.0
+      100000000*  (double) (-~num * ~-num >= 0)    // 0.0
+    ;
+    cond = temp < 1100111.00000001 && temp > 1100110.99999999 || !cond;
+    if (cond) {
+        write "First step\n";
+
+        num = 2147483647;  // int.Max
+        dec = num;
+        cond = num == (int)dec && num + 1 < 0 && dec + 1 > 0;  
+        if(cond) {
+            write "    Second step\n";
+
+            cond = !!(~~2147483647 & 0 == 2147483647 * 0) != false;
+            if(cond){
+                write "        Third step\n";
+                
+                cond = 1 == - ~ ( int ) ( double ) ! cond;
+                if(cond){
+                    write "            ...\n";
+                    
+                    num = (int)(1 & (int)(num/2+2) & 1);
+                    cond = 1 == (int) (cond = true) != (cond = false) == (cond = true);
+                    while(cond){                        
+                        write "                You went to infinity and ...\n";
+                        cond = !(-~num == 2);
+                    }
+                }
+            }
+        }
+    }
+
+    write "You failed anyway.\n";
+}

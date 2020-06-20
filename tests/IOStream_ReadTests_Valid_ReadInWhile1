@@ -1,0 +1,35 @@
+program
+{
+    int k;
+    double d;
+    bool b;
+    int i; int j;
+
+    b = b || 1 < (1 + 1 + (1 + 1 + (1 + 1 + (1 + 1 + (1 + 1)))));
+    b = b && (int)(d = 5.0) == 5;
+    if (d == 5.0) {
+        write " __\n";
+        write "   |  |\n";
+        write " __|__|\n";
+        write "|  |\n";
+        write "|  |__\n";
+
+        write "\n";
+        i = 0;
+        while(d > 0) {
+            d = d - 0.5;
+            read k;
+            d = d + (int)(k != 0);
+            
+            j = 0;
+            while(j < i){
+                j = j + 1;
+                write " ";
+            }
+
+            write "Hi!\n";
+            i = i + 1;
+        }
+
+    }
+}

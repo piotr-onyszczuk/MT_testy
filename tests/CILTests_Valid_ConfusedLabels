@@ -1,0 +1,35 @@
+program
+{
+    int i;
+    bool b;
+
+    b = true;
+    i = 0;
+    
+    while(b && ~i < 10)
+    {
+        if(~i < 10){
+            while(b) {
+                b = false;
+                i = i + 1;
+            }
+        } 
+        else {
+            b = false;
+            if(b){
+            
+            }
+            else
+            {
+                b = true;
+            }
+        }
+        
+        while(!b) {
+            b = true;
+            i = i + 1;
+        }
+    }
+
+    write i;
+}
