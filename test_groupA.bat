@@ -19,17 +19,17 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 					tests\%%a.exe > results\%%a
 				)
 				if NOT !%errorlevel! == 0 (
-					set /A problem = 2
+					set /A problem = 4
 					)
 			) else (
-				set /A problem = 2
+				set /A problem = 3
 			)
 		) else (
 			set /A problem = 2
 		)
 	) else (
 		if !errorlevel! LSS 0 (
-			set /A problem = 3
+			set /A problem = 5
 		) else (
 		set /A problem = 1
 		)
@@ -39,19 +39,31 @@ for /f "tokens=*" %%a in (tests_groupA.txt) do (
 		echo error> results\%%a
 	)
 	if !problem! == 2 (
-		echo critical_error> results\%%a
+		echo ilasm_error> results\%%a
+	)
+	if !problem! == 3 (
+		echo peverify_error> results\%%a
+	)
+	if !problem! == 4 (
+		echo different_error> results\%%a
 	)
 	
-	if !problem! == 3 (
+	if !problem! == 5 (
 		echo compiler_error> results\%%a
 	)
 )
 
 echo errors detected > errors_groupA.txt
+set ers=0
+set total=0
 for /f "tokens=*" %%a in (tests_groupA.txt) do (
 
 	fc results\%%a expected_results\%%a
 	if not !errorlevel! == 0 (
 		fc results\%%a expected_results\%%a >> errors_groupA.txt
+		set /a ers=ers+1
 	)
+	set /a total=total+1
 )
+echo TOTAL ERRORS:  %ers% / %total%
+echo TOTAL ERRORS:  %ers% / %total% >> errors_groupA.txt
