@@ -2,15 +2,19 @@
 SetLocal EnableDelayedExpansion
 
 for /f "tokens=*" %%a in (tests.txt) do (
+
     set /A problem = 0
 	
-	echo %%a
+	echo ================================== COMPILING PROGRAM %%a  =======================================
+	echo ========================================================================================================
 	
     %1 tests\%%a
 	
     if !errorlevel! == 0 (
+		echo ============================= ILASM %%a  ===============================
 		ilasm tests\%%a.il
 		if !errorlevel! == 0 (
+			echo ============================= PEVERIFY %%a  ===============================
 			peverify tests\%%a.exe 
 			if !%errorlevel! == 0 (
 				if exist inputs\%%a (
@@ -52,6 +56,10 @@ for /f "tokens=*" %%a in (tests.txt) do (
 		echo compiler_error> results\%%a
 	)
 )
+
+echo =============================================================================================================
+echo ================================== COMPILATION FINISHED ======================================================
+echo =================================== COMPARING THE RESULTS =====================================================
 
 echo ERRORS DETECTED: > errors.txt
 set ers=0
