@@ -1,0 +1,25 @@
+program
+{
+    int a;
+    bool i;
+    double b;
+    b = 3.5;
+
+    write 3 - 3;
+    write "\n";
+    write 10 - (3 + 5) / 1;
+    write "\n";
+    write 3 - -3;
+    write "\n";
+    write 3 -- 2;
+    write "\n";
+    write 3 --- 2;
+    write "\n";
+    a = 5 - -   5;
+    a = 10 + -5 * 4 / -(int)b * ~a;
+    a = 14 - 2 * -(4 + 2);
+    write !true;
+    write "\n";
+    write ~(int)!!true;
+
+}

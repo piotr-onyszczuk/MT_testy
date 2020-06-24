@@ -1,0 +1,30 @@
+program
+{
+    int i;
+    double d;
+    bool b;
+    bool i;//1
+    int d;//2
+
+    i = 14;
+    d = 12.4;
+    b = true;
+
+    i = 10;
+
+    write c;//3
+    write q;//4
+
+    i = true;//5
+    i = 10.2;//6
+    d = false;//7
+    write afgfsdfds;//8
+    read asdasd;//9
+    d = 10;
+
+    i = (int)(i + 4.2 - (2.1 * 4));
+
+    b = 0;//10
+    b = -2.4;//11
+    b = !!true;
+}

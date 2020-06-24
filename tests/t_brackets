@@ -1,0 +1,27 @@
+program {
+    int a;
+    int b;
+    write 10;
+    write "\n";
+    {
+        write 10;
+        write "\n";
+        {
+            a = 10;
+            {}
+        }
+    }
+    a = 1;
+    b = 10 + 4 - 2;
+    {
+        { 
+            {write 1;}
+            {}
+            write "\n";
+        }
+        write 10;
+        {}
+    }
+    write "\n";
+}
+

@@ -1,0 +1,21 @@
+program {
+    double a;
+    int i;
+    a = 2;
+    i = 1;
+    write ( int)a;
+    a = ( double ) i;
+    a = (int ) i;
+    a = (double)i;
+    i = (int)a;
+    a = (int)(double )a;
+    write "\n";
+    write ( int)a;
+    a = ( double ) i;
+    a = (int ) i;
+    a = (double)i;
+    write "\n";
+    write (int)(double)(2 + (int)i);
+    a = (double)(int)(int ) i;
+    a = (int)((double)i + (int)2.2);
+}
