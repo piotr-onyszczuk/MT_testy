@@ -1,0 +1,18 @@
+program {
+    int sztos;
+    bool a;
+    double siema;
+    sztos = -102;
+    a = false;
+    siema = -10;
+    siema = 101.75;
+    siema = -104.27;
+    write -10.5 * 20.2;
+    write "\n";
+    write -10.24 * 5;
+    write "\n";
+    write 5 / 421.4;
+    write "\n";
+    write !true;
+    write "\n";
+}

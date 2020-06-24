@@ -1,0 +1,5 @@
+program {
+    int a;
+    int i;
+    a = ( bool ) i;
+}

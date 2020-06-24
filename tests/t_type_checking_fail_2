@@ -1,0 +1,16 @@
+program {
+    int sztos;
+    bool a;
+    double siema;
+    
+    sztos = true;
+
+    siema = false;
+
+    a = 10 + true;
+    a = false * 10.7;
+    write true * 2;
+    write 10.2 + false;
+    write false * true;
+    write true - true;
+}

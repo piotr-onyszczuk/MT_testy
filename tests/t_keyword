@@ -1,0 +1,13 @@
+program
+{
+    int pop;
+    double float;
+    bool stloc;
+    int ldloc;
+    int add;
+    int mul;
+    mul = -10;
+    ldloc = 184;
+    add = mul + ldloc + 1;
+    write add;
+}

@@ -292,13 +292,13 @@ CILTests_Valid_ConfusedLabels
 t_brackets
 t_cast
 t_cast_fail
-t_comments
 t_keyword
 t_number_regex
 t_number_regex_fail
+t_przyklad
 t_type_checking
 t_type_checking_fail
 t_type_checking_fail_2
+t_types
 t_unary
 t_unary_fail
-t_przyklad

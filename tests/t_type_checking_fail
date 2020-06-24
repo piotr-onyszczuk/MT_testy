@@ -1,0 +1,10 @@
+program {
+    int sztos;
+    bool a;
+    double siema;
+    
+    a = 100;
+    a = -42.1;
+
+    sztos = 10.2;
+}
