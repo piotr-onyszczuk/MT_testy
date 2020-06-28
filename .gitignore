@@ -1,5 +1,6 @@
 *.il
 *.exe
+!TestPad.exe
 results/*
 errors*
 *.swp
