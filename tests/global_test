@@ -1,0 +1,127 @@
+program
+{
+//To jest pierwsza linia
+int a;
+int b;
+int c;
+int br;
+double pop;
+double POPjazzANDrockANDrollMAAAN;
+double X;
+double Y;
+double Z;
+bool p;
+bool q;
+bool r;
+
+//Poczatek programu
+write a;
+write "\n";
+write X;
+write "\n";
+write p;
+write "\n";
+
+read a;
+read X;
+read p;
+
+{}
+{
+write a;
+write "\n";
+write X;
+write "\n";
+write p;
+write "\n";
+{{}}
+{{{{}write "akuku!\n";
+}
+if(2 == 2 *(int)true)
+{
+write "OK\n";
+write "really\n";
+}
+else
+{
+write "FAIL\n";
+}
+if(false == (-14==-14))
+{
+write "FAIL\n";
+} else {
+write "OK\n";
+write "seriously\n";
+}
+
+X = 1.123;
+while(X <  5)
+{
+X = X+1;
+write X;
+write "\n";
+}
+
+		 1 +10 * 4;//TODO ok
+		
+a = 1;
+q = (a == 1) || (a = 10)>5;
+if(a == 10)
+	write "ERROR brak skroconych wyrazen\n";
+
+a = 1;
+X = 2.5;
+q = a < X;
+p = a <= X;
+r = p && q;
+p = X > a;
+q = X>= a;
+r = p&&r && q;
+p = X!=a;
+q = 2==2;
+r = p&&r&&q;
+if (!!r || false)
+write "SUCCESS\n";
+else
+write "FAIL \n";
+write "OK: ";
+write 5 & 7 == 5;
+write "\n";
+write "OK: ";
+write 4 | 8 == 12;
+write "\n";
+
+write "OK: ";
+write 148 - 24 * 2 - -4 * 5 / 4 - (2 + 3) == 100;
+write " \n";
+write "OK: ";
+write !!!(!!false);
+write "\n";
+
+write 3.14 - 0.14 - 4 +1;
+write 0;
+write 0.0;
+X = -0.0;
+a =    -    0 ;
+b=1+4*(
+- 41
++21);
+//test !@#$%^&*()-=_+,.<>;':"[]{}|\`~ADAd
+write (int)true;
+write (double)true;
+write (int)-24.157127;
+write (double)-24212;
+a = 0;
+while((a=a+1) < 5) {}
+write "OK\n";
+if(true) {} else {}
+write "\t\tOK\n";
+
+return;
+write "FAIL\n";
+write "unexpected write\n";
+write 10/0;
+} }}}
+
+//asdasdasdasdasdasdas
+//asdasdasdasdasdasda34143

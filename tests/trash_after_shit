@@ -1,0 +1,9 @@
+program
+{
+int Zmienna;
+Zmienna = 2 + 4 * 7;
+write Zmienna;
+}
+
+aaw3v4
+dASDASDCAsadasd

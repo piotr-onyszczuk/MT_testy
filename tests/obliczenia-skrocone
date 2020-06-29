@@ -1,0 +1,29 @@
+program
+{
+    int a;
+    int b;
+    bool c;
+    a = 10;
+    b = 11;
+    c = false;
+
+    if(a==b && (a=20)>0) {}
+
+    if(20 == a)
+    write "FAIL";
+
+    c = 15 != 41 || (a = -1) == 5;
+
+    if(a == -1)
+    write "FAIL";
+    
+    c = 15 != 41 || 21 == 21 || (a = 0) == 2;
+    if(a == 0)
+    write "FAIL";
+
+    c = 15 == 41 || 21 == 20 || (a = 10) == 5;
+    if(a != 10)
+    write "FAIL";
+
+    write "OK";
+}

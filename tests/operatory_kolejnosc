@@ -1,0 +1,9 @@
+program
+{
+int a;
+int b;
+a=10;
+b=-4;
+write "Pass ";
+write ((a=5)>0) != false!=true!=false!=(a==5);
+}

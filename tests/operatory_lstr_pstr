@@ -1,0 +1,17 @@
+program {
+int a;
+int c;
+c = a = a = a = 10;
+write "Pass: ";
+write 10==c;
+write "\n";
+c = 4 + ( a=20 );
+write "Pass: ";
+write 24==c;
+write "\n";
+c = ~--9;
+a = ~9;
+write "Pass: ";
+write a==c;
+write "\n";
+}
