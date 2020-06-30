@@ -1,0 +1,25 @@
+program
+{
+double A1;
+double B1;
+double C1;
+read A1;
+read B1;
+read C1;
+write (int)A1*C1;
+write "\n";
+write (int)B1;
+write "\n";
+write B1;
+write "\n";
+write A1;
+write "\n";
+write C1;
+write "\n";
+read A1;
+write A1;
+write "\n";
+read A1;
+write A1;
+write "\n";
+}

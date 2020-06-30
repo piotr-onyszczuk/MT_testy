@@ -1,0 +1,12 @@
+
+program
+{
+	bool a;
+	read a;
+	write a;
+	read a;
+	write a;
+	read a;
+	write a;
+	write "OK";
+}
