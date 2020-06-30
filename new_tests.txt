@@ -37,3 +37,6 @@ declaration_two_times
 FAILunexpected_eof
 too_many_close_brackets
 shit
+do_not_print_nonstandard_sequence_test
+variable_names
+FAILvariable_names

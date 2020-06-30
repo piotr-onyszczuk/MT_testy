@@ -1,0 +1,6 @@
+program
+{
+int asd787896ASE2;
+asd787896ASE2 = 10;
+write asd787896ASE2 * asd787896ASE2 - asd787896ASE2;
+}
