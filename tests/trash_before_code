@@ -1,0 +1,9 @@
+Zmienna = 2 + 10 - 5;
+
+program
+{
+int Zmienna;
+Zmienna = 2 + 4 * 7;
+write Zmienna;
+}
+

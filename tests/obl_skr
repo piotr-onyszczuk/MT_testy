@@ -1,0 +1,20 @@
+program {
+int a;
+bool b;
+b = true || (a=10)>0;
+write "\nok: ";
+write a == 0;
+a = 0;
+b = true && (a=10)>0;
+write "\nok: ";
+write a == 10;
+
+a = 0;
+b = (a=10)>0 || true;
+write "\nok: ";
+write a == 10;
+a = 0;
+b = (a=10)==0 && true;
+write "\nok: ";
+write a == 10;
+}

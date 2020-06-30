@@ -1,0 +1,39 @@
+program
+{
+int a;
+int b;
+a = 10;
+b = -21;
+if(a < b)
+write "FAIL\n";
+if(a <b)
+{
+write "FAIL";
+write "FAIL";
+}
+write "OK\n";
+if(a >b)
+{
+write "OK";
+write "OK";
+}
+write "OK\n";
+if (a <b)
+{
+write "FAIL";
+write "FAIL";
+}
+else
+{
+write "OK";
+write "OK";
+}
+write "OK";
+
+if (a <b)
+write "FAIL";
+else
+write "OK";
+
+write "FINISH";
+}

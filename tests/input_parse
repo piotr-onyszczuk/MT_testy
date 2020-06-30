@@ -1,0 +1,22 @@
+program
+{
+int a;
+bool b;
+double c;
+double d;
+write "podaj int ";
+read a;
+write "podaj bool ";
+read b;
+write "podaj double ";
+read c;
+write "podaj int ";
+read d;
+write a;
+write "\n";
+write b;
+write "\n";
+write c;
+write "\n";
+write d;
+}

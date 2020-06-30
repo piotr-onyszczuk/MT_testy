@@ -1,0 +1,6 @@
+program {
+write "witaj swiecie\nNie ma lipy!!";
+write "\nwitaj swiecie\n\nNie ma lipy!!";
+write "\nwitaj swiecie\nNie ma lipy!!";
+write "\n\n\t\twitaj swiecie\t Nie ma\" lipy \" hoho!!";
+}
