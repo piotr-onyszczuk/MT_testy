@@ -40,3 +40,5 @@ shit
 do_not_print_nonstandard_sequence_test
 variable_names
 FAILvariable_names
+FAIL_long_comments
+FAIL_long_comments_2
