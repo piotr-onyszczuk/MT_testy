@@ -1,0 +1,4 @@
+program
+{
+    write "\x65\u0065\x61";
+}
